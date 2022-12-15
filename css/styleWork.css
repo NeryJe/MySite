@@ -1,0 +1,383 @@
+html,
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(
+        180deg,
+        #181e30 50%,
+        #1d2552 100%,
+        #1d2553 100%
+    );
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bcc0d4;
+}
+
+/*-------nav bar responsive invisible for now*/
+
+.color {
+    margin: 0;
+    padding-top: 5%;
+    background-color: #1d2552;
+    border-radius: 0 0 10% 10%;
+}
+.nav-toggle-label {
+    display: none;
+}
+.nav-toggle {
+    display: none;
+}
+.nav {
+    color: #776833;
+    align-items: center;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+.nav-item {
+    margin-right: 2.5rem;
+}
+.set {
+    color: #bcc0d4;
+}
+.set:hover {
+    color: #d3c488;
+}
+
+/* First button*/
+
+.btn-primary {
+    background-color: transparent;
+    padding: 0.5rem 1rem 0.5rem;
+    font-size: 14px;
+    color: #f3d55d;
+    border-color: #f3d55d;
+    border: 0.5px solid;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #f3d55d;
+    transition: ease-out 0.2s;
+    outline: none;
+}
+.btn-primary:hover {
+    box-shadow: inset 8em 0 0 0 #f3d55d;
+    color: #00071b;
+}
+.rms {
+    color: #f3d55d;
+}
+
+.btn-primary {
+    border: 1px solid #f3d55d;
+    border-radius: 2px;
+}
+
+.btn-primary:hover {
+    color: #181e30;
+    background: #f3d55d;
+}
+
+.mylogo {
+    width: 35px;
+    height: 35px;
+}
+
+.mylogo:hover {
+    opacity: 0.1;
+}
+
+h1 {
+    margin: 5%;
+    font-size: 48px;
+}
+
+/*Social links section*/
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+}
+.mylogo {
+    width: 35px;
+    height: 35px;
+    align-items: center;
+}
+.logo {
+    margin-right: 60%;
+}
+.mylogo:hover {
+    opacity: 0.1;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+}
+.codepen {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    bottom: 5%;
+    left: 2%;
+}
+
+.codepen svg:hover :focus {
+    fill: rgb(255, 255, 255);
+}
+
+.in {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 10%;
+    left: 2%;
+}
+
+path:hover {
+    fill: rgb(255, 255, 255);
+}
+
+.github {
+    position: fixed;
+    bottom: 15%;
+    left: 2%;
+}
+.icon3 {
+    position: fixed;
+    bottom: 5%;
+    left: 97%;
+}
+.PW-img {
+    width: 820px;
+    height: 515px;
+    margin-right: 10px;
+    transition: 0.5 ease;
+    backface-visibility: hidden;
+}
+
+.ifocus-img {
+    width: 520px;
+}
+
+.Node-img {
+    width: 520px;
+    margin-left: 10px;
+}
+.second-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.first-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Shine-img {
+    width: 520px;
+    height: 500px;
+    margin-right: 10px;
+}
+.Chalc-img {
+    width: 820px;
+    height: 500px;
+    margin-left: 10px;
+}
+.idea-img {
+    width: 820px;
+    height: 512px;
+    margin-right: 10px;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*Personal Website */
+.middle {
+    transition: 0.5 ease;
+    opacity: 0;
+    position: absolute;
+    top: 80%;
+    left: 28.2rem;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.btn-live {
+    background-color: transparent;
+    border: 0.5px solid #f3d55d;
+    border-radius: 4rem;
+    color: #f3d55d;
+    font-size: 24px;
+    padding: 12px 32px;
+    margin-right: 5px;
+}
+.btn-github {
+    background-color: transparent;
+    border: 0.5px solid #f3d55d;
+    border-radius: 4rem;
+    color: #f3d55d;
+    font-size: 24px;
+    padding: 12px 32px;
+    margin-right: 5px;
+}
+.btn-github:hover,
+.btn-live:hover {
+    color: #181e30;
+    background-color: #f3d55d;
+    border: 0;
+    cursor: pointer;
+}
+.project-1:hover .PW-img {
+    opacity: 0.3;
+    background: #262647;
+}
+.project-1:hover .middle {
+    opacity: 1;
+}
+/*Node Project*/
+.project-2:hover .Node-img {
+    opacity: 0.1;
+    background-color: #2da4ff;
+    cursor: pointer;
+}
+.project-2:hover .text {
+    opacity: 1;
+}
+.text {
+    transition: 0.5 ease;
+    opacity: 0;
+    position: absolute;
+    top: 35rem;
+    left: 71.5rem;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 4px;
+}
+.project-type {
+    color: #badaf2;
+}
+/*Shine Project*/
+.project-3:hover .Shine-img {
+    opacity: 0.1;
+    background-color: #b158ff;
+    cursor: pointer;
+}
+.project-3:hover .text-2 {
+    opacity: 1;
+}
+.text-2 {
+    transition: 0.5 ease;
+    opacity: 0;
+    position: absolute;
+    top: 68rem;
+    left: 18.8rem;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 4px;
+}
+
+/*Chalc Project*/
+.project-4:hover .Chalc-img {
+    opacity: 0.1;
+    background: #1b886f;
+    cursor: pointer;
+}
+.project-4:hover .text-3 {
+    opacity: 1;
+}
+.text-3 {
+    transition: 0.5 ease;
+    opacity: 0;
+    position: absolute;
+    top: 68rem;
+    left: 62rem;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 4px;
+}
+
+.project-name {
+    font-size: 3.5em;
+}
+
+.project-5:hover .idea-img {
+    opacity: 0.1;
+    background: #56af7f;
+    cursor: pointer;
+}
+.project-5:hover .text-4 {
+    opacity: 1;
+}
+
+.text-4 {
+    font-size: 1.2em;
+    transition: 0.5 ease;
+    opacity: 0;
+    position: absolute;
+    top: 105rem;
+    left: 28rem;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 4px;
+}
+
+.project-6:hover .ifocus-img {
+    opacity: 0.1;
+    background: #2da4ff;
+    cursor: pointer;
+}
+.project-6:hover .text-5 {
+    opacity: 1;
+}
+.text-5 {
+    transition: 0.5 ease;
+    opacity: 0;
+    position: absolute;
+    top: 99rem;
+    left: 67.6rem;
+    transform: translate(-20%, -20%);
+    -ms-transform: translate(-20%, -20%);
+    text-align: center;
+    line-height: 2px;
+}
