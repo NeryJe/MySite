@@ -488,7 +488,7 @@ footer {
         margin: 0;
     }
     .project-title {
-        font-size: 32px;
+        font-size: 42px;
         margin: 0% auto;
     }
     .Dsg {
@@ -539,10 +539,6 @@ footer {
         padding: 0;
         margin: 0;
         width: 80%;
-    }
-    .project-title {
-        font-size: 32px;
-        margin-top: 0;
     }
 
     .section3 {
