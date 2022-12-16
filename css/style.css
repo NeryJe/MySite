@@ -471,6 +471,7 @@ footer {
     .container2 {
         display: flex;
         flex-direction: column;
+         width: 100%;
     }
     .project1 {
         display: flex;
@@ -505,6 +506,8 @@ footer {
         flex-direction: column;
         justify-content: end;
         justify-items: end;
+        margin: 0;
+        padding: 0;
     }
     .description2 {
         margin: 1em 0;
@@ -559,6 +562,19 @@ footer {
     }
     .secondary-btn {
         margin: 30% auto 40% auto;
+    }
+     .chalcimg {
+        width: 100%;
+    }
+    .focusimg {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .shineimg {
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     /*-----------------------Responsive nav-------------------------------*/
