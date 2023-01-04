@@ -266,7 +266,7 @@ header {
     width: 90%;
     margin: auto;
     display: flex;
-    opacity: 0.4;
+    
 }
 .chalcimg:hover {
     opacity: 5;
@@ -316,8 +316,6 @@ header {
     margin: auto;
     width: 90%;
     display: flex;
-    box-shadow: #181e30;
-    opacity: 0.4;
 }
 .focusimg:hover {
     opacity: 5;
