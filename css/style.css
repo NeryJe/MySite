@@ -266,11 +266,9 @@ header {
     width: 90%;
     margin: auto;
     display: flex;
-    opacity: 0.4;
+    
 }
-.chalcimg:hover {
-    opacity: 5;
-}
+
 .featured {
     font-size: 12px;
     margin: 0;
