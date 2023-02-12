@@ -225,6 +225,7 @@ header {
     gap: 40px;
     width: 100px;
 }
+
 .container2 {
     width: 80%;
     margin: 5% auto;
@@ -241,9 +242,9 @@ header {
     align-items: center;
 }
 .description1 {
-    font-size: 18px;
+    font-size: 1.125em;
     margin: 0;
-    padding: 0;
+    padding: 0 2em;
 }
 
 .tools {
