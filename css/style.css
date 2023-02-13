@@ -315,11 +315,9 @@ header {
     width: 90%;
     display: flex;
     box-shadow: #181e30;
-    opacity: 0.4;
+   
 }
-.focusimg:hover {
-    opacity: 5;
-}
+
 .description2 {
     font-size: 18px;
     margin: 0;
@@ -354,11 +352,8 @@ header {
     width: 90%;
     display: flex;
     box-shadow: #181e30;
-    opacity: 0.4;
 }
-.shineimg:hover {
-    opacity: 5;
-}
+
 .description3 {
     margin: auto 1em;
 }
