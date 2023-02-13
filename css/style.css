@@ -226,8 +226,8 @@ header {
     width: 100px;
 }
 .container2 {
+    margin: 20em auto;
     width: 100%;
-    margin: 10em auto;
     display: flex;
     flex-direction: column;
 }
