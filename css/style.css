@@ -232,7 +232,7 @@ header {
     flex-direction: column;
 }
 .project1 {
-    margin: 5em 5em;
+    margin: 0em 5em;
     color: #8a91b6;
     display: flex;
     flex-direction: reverse;
@@ -302,7 +302,7 @@ header {
 
 .project2 {
     color: #8a91b6;
-     margin: 5em 5em;
+      margin: 0em 5em;
     display: flex;
     text-align: end;
     flex-direction: row-reverse;
@@ -339,7 +339,7 @@ header {
 
 .project3 {
     color: #8a91b6;
-     margin: 5em 0em;
+     margin: 0em 5em;
     display: flex;
     flex-direction: reverse;
     justify-content: center;
