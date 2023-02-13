@@ -302,7 +302,7 @@ header {
 
 .project2 {
     color: #8a91b6;
-    margin: 5%;
+     margin: auto  2em;
     display: flex;
     text-align: end;
     flex-direction: row-reverse;
@@ -339,7 +339,7 @@ header {
 
 .project3 {
     color: #8a91b6;
-    margin: 5% auto;
+     margin: auto  2em;
     display: flex;
     flex-direction: reverse;
     justify-content: center;
